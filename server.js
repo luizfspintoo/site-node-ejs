@@ -6,12 +6,12 @@ app.set("view engine", "ejs") //Ferramenta para redenriza HTML é com EJS(dentro
 
 //Cria uma rota
 app.get("/", function(req, res){
-  res.render("index");
+  res.render("pages/index");
 })
 
 //Rota sobre
 app.get("/sobre", function(req, res){
-  res.render("about");
+  res.render("pages/about");
 })
 
 //Roda o servidor
